@@ -73,7 +73,7 @@ workflow deepvariant {
     RuntimeAttributes default_runtime_attributes
   }
 
-  Int total_deepvariant_tasks = 64
+  Int total_deepvariant_tasks = 32
   Int num_shards              = 8
   Int tasks_per_shard         = total_deepvariant_tasks / num_shards
 
